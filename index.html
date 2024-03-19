@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgeCalc</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="card">
+          <div class="card__inputs">
+            <div class="ageIn">
+              <label>Day</label>
+              <input
+                id="day"
+                type="text"
+                placeholder="DD"
+                autocomplete="off"
+                maxlength="2"
+                required
+              />
+              <div class="error"></div>
+            </div>
+            <div class="ageIn">
+              <label>Month</label>
+              <input
+                id="month"
+                type="text"
+                placeholder="MM"
+                autocomplete="off"
+                maxlength="2"
+                required
+              />
+              <div class="error"></div>
+            </div>
+            <div class="ageIn">
+              <label>Year</label>
+              <input
+                id="year"
+                type="text"
+                placeholder="YYYY"
+                autocomplete="off"
+                maxlength="4"
+                required
+              />
+              <div class="error"></div>
+            </div>
+          </div>
+          <div class="card__line">
+            <div class="line"></div>
+            <button id="submit">
+              <img src="./images/icon-arrow.svg" />
+            </button>
+            <div class="line-sec"></div>
+          </div>
+          <div class="current__age"><span>--</span> years</div>
+          <div class="current__age"><span>--</span> months</div>
+          <div class="current__age"><span>--</span> days</div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
