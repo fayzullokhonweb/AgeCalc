@@ -141,7 +141,7 @@ span {
         border-bottom-right-radius: 100px;
     }
 
-    .card-inputs {
+    .card__inputs {
         width: 320px;
     }
 
@@ -163,7 +163,7 @@ span {
         width: 25px;
     }
 
-    .line-sec {
+    .line__sec {
         border: 1px solid #dbdbdb;
         width: 100%;
     }
