@@ -142,11 +142,11 @@ span {
     }
 
     .card__inputs {
-        width: 300px;
+        width: 290px;
     }
 
     .ageIn input {
-        width: 90px;
+        width: 80px;
         font-size: 20px;
         padding: 15px;
     }
