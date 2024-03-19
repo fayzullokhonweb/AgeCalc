@@ -142,7 +142,7 @@ span {
     }
 
     .card__inputs {
-
+        width: 300px;
     }
 
     .ageIn input {
